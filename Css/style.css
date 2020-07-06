@@ -111,8 +111,30 @@ div#texto_mobile {
 }
 
 
+.lineaDatos{
+    display: flex;
+    justify-content: space-between;  
+}
+
+.cuadroDatos{
+width: 30%;
+min-height: 250px;
+background-color: #FFFFFF;
+box-shadow: 0 0 9px 1px #CECDD2;
+border-radius: 20px;
+margin: 8px;
+padding: 20px;
+justify-content: space-between;
+list-style: none;
+}
+
+
 @media only screen and (max-width: 768px)
 {
+  .lineaDatos 
+  {
+    display: block;
+  }
 	.ocultarEnMovil
 	{
 		display: none;
